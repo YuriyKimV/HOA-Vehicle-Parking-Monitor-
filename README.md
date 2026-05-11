@@ -13,6 +13,17 @@ A "no-code application built with Google AppSheet", backed by Google Sheets, des
 
 # 🗂 Data Architecture
 
+
+## Data Storage
+The application is backed by Google Sheets, which serves as the primary data source for all records.
+
+- The spreadsheet is stored in Google Drive
+- AppSheet connects directly to the Google Sheets file
+- All data operations (read, add, update) are performed through AppSheet
+- Changes are synchronized in real time between the app and the spreadsheet
+
+This architecture enables a no-code implementation while providing flexible and easily maintainable data storage.
+
 ## 1. Registered Table (Master Data)
 
 "Purpose:"  
