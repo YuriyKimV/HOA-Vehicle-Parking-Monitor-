@@ -64,6 +64,21 @@ Tracks vehicles not found in the registry.
 - Add-only (audit log)
 - No updates or deletes allowed
 
+## Data Export
+
+The app supports exporting the Registered Vehicles table to CSV.
+
+- Export uses AppSheet built-in functionality
+- Downloads a CSV file compatible with Excel and Google Sheets
+- File reflects current data and applied filters
+
+📱 Mobile:
+- Android: saved in Downloads
+- iPhone: use Share → Save to Files
+
+⚠️ Best used in browser (Chrome/Safari), not AppSheet mobile ap
+
+
 ---
 
 # UX
