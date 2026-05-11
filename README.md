@@ -77,5 +77,14 @@ View Type -> table
 
 ### Unregistered log
 Data -> Unregistered Log Table
+
+# User Flow
+
+1. User searches licence plate in Vehicle Lookup View 
+2. If found → display vehicle details
+3. If not found → user can either add Vehicle in the resiter list from Vehicle View, or add vehicle to Unregistered log vis Report Vehicle View
+5. User can display Registered Table details and edit values
+6. User can review Unregistered log and edit details
+
 View Type -> table 
 
